@@ -30,30 +30,29 @@ export default function About() {
 				<SectionTitle
 					title="About Me"
 					preTitle="Synopsis"
-					subTitle="With a diverse skill set that includes UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I am a well-rounded digital professional."
+					subTitle="With a diverse skill set that spans AI engineering, full stack development, and a passion for innovative technologies, I am a versatile software engineer dedicated to pushing the boundaries of what's possible in tech."
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<img src="/img/family-photo.jpg" alt="Nelson family photo"/>
-						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
+						<img src="/img/headshot.jpg" alt="Headshot"/>
+						{/* <Image src="/img/headshot.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
 						<CopyBlock 
-							title="Softskills that pay the bills"
+							title="Bridging AI and Software Engineering"
 							containerClass={about.container}
 							iconClass={about.icon}
-							icon={[ 'fat', 'ear-listen' ]}
-							copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
+							icon={[ 'fat', 'microchip-ai' ]}
+							copy="Beyond my technical expertise in AI and software development, I bring strong problem-solving skills and a keen interest in emerging technologies. My experience ranges from developing cutting-edge AI applications to creating robust full-stack solutions. I'm particularly passionate about leveraging AI to solve real-world problems and enhance user experiences."
 						/>
 						<BadgesBlock 
-							title="Reasearch and planning" 
+							title="Core Competencies" 
 							containerClass={about.container}
-							list={methods} 
+							list={skills} 
 							fullContainer="fullContainer"
-							block="methods" 
-							icon="fingerprint"
-							copy="One of my favorite aspects of creating is planning the architecture of a project. From Design Systems to Brand Strategy—I enjoy working with the many touch points of user experience."
-							//invertedColor="invertedColor"
+							block="skills" 
+							icon="code"
+							copy="My technical toolkit is diverse, encompassing both AI technologies and traditional software development. I enjoy working with various aspects of AI and software engineering, from machine learning models to scalable web applications."
 							headerIcon={`${about.icon}`}
 						/>
 					</div>
@@ -63,11 +62,11 @@ export default function About() {
 	)
 }
 
-const methods 	= [
-	{ key: 'planet-moon', 		name: 'User Research', 		type: 'fad' },
-	{ key: 'qrcode', 			name: 'Digital Strategy', 	type: 'fad' },
-	{ key: 'window', 			name: 'Design Systems', 	type: 'fad' },
-	{ key: 'cubes', 			name: 'Product Strategy', 	type: 'far' },
-	{ key: 'layer-plus', 		name: 'Brand Strategy', 	type: 'fad' },
-	{ key: 'solar-system', 		name: 'Operations', 		type: 'fad' },
+const skills = [
+	{ key: 'brain-circuit', 	name: 'Machine Learning', 	type: 'fad' },
+	{ key: 'language', 			name: 'NLP', 				type: 'fad' },
+	{ key: 'code', 				name: 'Full Stack Dev', 	type: 'fad' },
+	{ key: 'database', 			name: 'Data Engineering', 	type: 'far' },
+	{ key: 'cloud', 			name: 'Cloud Computing', 	type: 'fad' },
+	{ key: 'project-diagram', 	name: 'System Design', 		type: 'fad' },
 ]
