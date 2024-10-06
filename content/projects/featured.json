@@ -1,53 +1,57 @@
 [
 	{
-		"project": "My Supply Co.",
-		"url": "https://mysupplyco.com",
+		"project": "LineupsValorant",
+		"url": "https://lineupsvalorant.com",
 		"repo": "Private",
-		"descriptionTitle": "D2C & B2B ecommerce site and blog",
-		"description": "with elegant solutions for a complex codebase and customer journey.",
+		"descriptionTitle": "Website for over millions of Valorant players",
+		"description": "to find the best lineups for their favorite agents and teams. Fast, easy, and free.",
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/03.png" },
-			{ "key": "mock-stack",	"hover": "right",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
-			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
+			{ "key": "mock-stack",	"hover": "left", 	"h": "556", "w": "900", "url": "/img/msc-mock_stack/mac2-LineupsValorant.png" },
+			{ "key": "mock-stack",	"hover": "right",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/left-phone-LineupsValorant-2.png" },
+			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/left2-phone-LineupsValorant.png" }
 		],
 		"stack": [
-			{ "key": "php", 		"name": "PHP", 			"type": "devicon" },
 			{ "key": "mysql", 		"name": "mySQL", 		"type": "devicon" },
 			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
 			{ "key": "jquery", 		"name": "jQuery", 		"type": "devicon" },
-			{ "key": "woocommerce", "name": "WooCommerce", 	"type": "devicon" },
-			{ "key": "wordpress",	"name": "Wordpress", 	"type": "devicon" },
 			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
 			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
 			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
-			{ "key": "google",		"name": "GA4/GTM/EEC", 	"type": "devicon" }
+			{ "key": "google",		"name": "GA4/GTM/EEC", 	"type": "devicon" },
+			{ "key": "python",		"name": "Python", 		"type": "devicon" },
+			{ "key": "flask",		"name": "Flask", 		"type": "devicon" }
 		]
 	},
 	{
-		"project": "andrewnelson.net",
-		"url": "https://github.com/atlamors/portfolio",
-		"repo": "Public",
-		"descriptionTitle": "An open source portfolio",
-		"description": "built on Next.js and React. A fast and agile MERN stack single page application.",
+		"project": "Robin",
+		"url": "https://robin-ai.vercel.app",
+		"repo": "Private",
+		"descriptionTitle": "An LLM-powered solution to fraud detection",
+		"description": "built on Pinecone, GPT-4, HuggingFace, and other proprietary ML, embedding, and pipelining technologies. For the US government's Medicaid and Medicare.",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "797", "w": "556",  "url": "/img/portfolio-mock_single.png" }
+			{ "key": "portfolio", "hover": "left", "h": "797", "w": "556",  "url": "/img/Robin.png" }
 		],
 		"stack": [
 			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
 			{ "key": "react", 		"name": "React", 		"type": "devicon" },
 			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
-			{ "key": "mongodb", 	"name": "MongoDB", 		"type": "devicon" },
 			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
-			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
-			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
+			{ "key": "python", 		"name": "Python", 		"type": "devicon" },
+			{ "key": "tensorflow", 	"name": "TensorFlow", 	"type": "custom" },
+			{ "key": "pytorch", 	"name": "PyTorch", 		"type": "devicon" },
+			{ "key": "huggingface", "name": "HuggingFace", 	"type": "custom" },
+			{ "key": "openai", 		"name": "OpenAI GPT-4", "type": "custom" },
+			{ "key": "pinecone", 	"name": "Pinecone", 	"type": "custom" },
+			{ "key": "amazonwebservices", 		"name": "AWS", 			"type": "devicon" },
+			{ "key": "docker", 		"name": "Docker", 		"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
+			{ "key": "fastapi", 	"name": "FastAPI", 		"type": "devicon" },
+			{ "key": "redis", 		"name": "Redis", 		"type": "devicon" }
 		]
 	}
 ]
