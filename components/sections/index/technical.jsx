@@ -28,76 +28,72 @@ export default function Technical() {
 		<Section classProp={`${about.section} borderBottom`}>	
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
-					title="Technical"
-					preTitle="Hardskills"
-					subTitle="As a creative technologist, I craft intuitive digital experiences using a diverse set of tools and languages."
+					title="Technical Expertise"
+					preTitle="Skills & Tools"
+					subTitle="As an AI engineer and full stack developer, I leverage a wide array of technologies to build innovative solutions that bridge the gap between cutting-edge AI and robust software engineering."
 				/>
 				<section className={`${about.content} ${about.container}`}>
 					<div className={about.copy}>
-						<CopyBlock 
-							title="Polymath foundations"
-							icon={[ 'fat', 'chart-network' ]}
-							copy="With a strong foundation in both design and development, I bring a unique perspective to every project and am constantly learning and evolving to stay up-to-date with the latest industry trends."
-							iconClass={about.icon}
-							containerClass={about.container}
-						/>
-						<BadgesBlock 
-							title="Software I love to work with" 
-							copy="With over 20 years of experience creating digital assets, I have a deep and intuitive understanding of how the interfaces of the best software products in the world are designed. This is just some of the software I have used over that time."
-							list={software}
-							block="software" 
-							fullContainer="fullContainer"
-							icon="grid-2-plus"
-							containerClass={about.container}
-							headerIcon={about.icon} 
-						/>
-						<BadgesBlock 
-							title="Technologies I love to build with" 
-							copy="I deeply enjoy solving problems through code. From the front end all the way to the back end and the APIs in-between. No project is too challenging for me."
-							list={tech} 
-							block="tech"
-							fullContainer="fullContainer" 
-							icon="laptop-code"
-							containerClass={about.container}
-							headerIcon={about.icon} 
-						/>							
+							<CopyBlock 
+								title="AI and Software Synergy"
+								icon={[ 'fat', 'brain-circuit' ]}
+								copy="With a strong foundation in both AI technologies and full stack development, I bring a unique perspective to every project. I'm constantly exploring new technologies and methodologies to stay at the forefront of the rapidly evolving tech landscape."
+								iconClass={about.icon}
+								containerClass={about.container}
+							/>
+							<BadgesBlock 
+								title="AI & Machine Learning Tools" 
+								copy="My expertise in AI and machine learning allows me to work with a variety of frameworks and tools to develop sophisticated models and applications."
+								list={aiTools}
+								block="ai" 
+								fullContainer="fullContainer"
+								icon="robot"
+								containerClass={about.container}
+								headerIcon={about.icon} 
+							/>
+							<BadgesBlock 
+								title="Development Technologies" 
+								copy="From front-end frameworks to back-end systems and cloud platforms, I utilize a comprehensive tech stack to build scalable and efficient applications."
+								list={devTech} 
+								block="dev"
+								fullContainer="fullContainer" 
+								icon="code"
+								containerClass={about.container}
+								headerIcon={about.icon} 
+							/>							
 					</div>
 					<div className={`${about.image} ${about.technicalSvg}`}>
 						<Image src="/img/dataism-24.svg" width={477} height={1111} alt="Data Strings 01 by Colorpong: https://ywft.us/2177b695b" />
 					</div>
 				</section>	
 			</Container>
-			{/* <SectionGridBg gridSize={4}/> */}
 		</Section>
 	)
 }
 
-const software = [
-	{ key: 'photoshop', 	name: 'Photoshop', 			type: 'devicon' },
-	{ key: 'illustrator', 	name: 'Illustrator', 		type: 'devicon' },
-	{ key: 'figma', 		name: 'Figma', 				type: 'devicon' },
-	{ key: 'vscode', 		name: 'VSCode', 			type: 'devicon' },
-	{ key: 'mailbox', 		name: 'Postman', 			type: 'fas' },
-	{ key: 'computer-mouse',name: 'Click Up', 			type: 'fas' },
-	{ key: 'list-music',	name: 'Ableton', 			type: 'fas' },
-	{ key: 'aftereffects',	name: 'After Effects', 		type: 'devicon' },
-	{ key: 'premierepro',	name: 'Premiere Pro', 		type: 'devicon' },
+const aiTools = [
+	{ key: 'python', 		name: 'Python', 			type: 'devicon' },
+	{ key: 'tensorflow', 	name: 'TensorFlow', 		type: 'custom' },
+	{ key: 'pytorch', 		name: 'PyTorch', 			type: 'devicon' },
+	{ key: 'huggingface', 	name: 'HuggingFace', 		type: 'custom' },
+	{ key: 'openai', 		name: 'OpenAI GPT', 		type: 'custom' },
+	{ key: 'scikit-learn', 	name: 'scikit-learn', 		type: 'devicon' },
+	{ key: 'numpy', 		name: 'NumPy', 				type: 'devicon' },
+	{ key: 'pandas', 		name: 'Pandas', 			type: 'devicon' },
+	{ key: 'jupyter', 		name: 'Jupyter', 			type: 'devicon' },
 ]
 
-const tech	= [
+const devTech	= [
 	{ key: 'javascript', 	name: 'JavaScript', 		type: 'devicon' },
-	{ key: 'nodejs', 		name: 'NodeJS', 			type: 'devicon' },
+	{ key: 'typescript', 	name: 'TypeScript', 		type: 'devicon' },
 	{ key: 'react', 		name: 'React', 				type: 'devicon' },
-	{ key: 'nextjs', 		name: 'NextJS', 			type: 'devicon' },
-	{ key: 'jquery', 		name: 'jQuery', 			type: 'devicon' },
-	{ key: 'php', 			name: 'PHP', 				type: 'devicon' },
-	{ key: 'wordpress', 	name: 'WordPress', 			type: 'devicon' },
-	{ key: 'woocommerce', 	name: 'WooCommerce', 		type: 'devicon' },
-	{ key: "google",		name: "GA4/GTM", 			type: "devicon" },
-	{ key: 'html5', 		name: 'HTML5', 				type: 'devicon' },
-	{ key: 'css3', 			name: 'CSS3', 				type: 'devicon' },
-	{ key: 'sass', 			name: 'SASS', 				type: 'devicon' },
-	{ key: 'git', 			name: 'Git', 				type: 'devicon' },
-	{ key: 'mysql', 		name: 'MySQL', 				type: 'devicon' },
+	{ key: 'nextjs', 		name: 'Next.js', 			type: 'devicon' },
+	{ key: 'nodejs', 		name: 'Node.js', 			type: 'devicon' },
+	{ key: 'express', 		name: 'Express', 			type: 'devicon' },
 	{ key: 'mongodb', 		name: 'MongoDB', 			type: 'devicon' },
+	{ key: 'postgresql', 	name: 'PostgreSQL', 		type: 'devicon' },
+	{ key: 'amazonwebservices', 			name: 'AWS', 				type: 'devicon' },
+	{ key: 'docker', 		name: 'Docker', 			type: 'devicon' },
+	{ key: 'git', 			name: 'Git', 				type: 'devicon' },
+	{ key: 'fastapi', 		name: 'FastAPI', 			type: 'devicon' },
 ]
