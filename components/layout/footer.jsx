@@ -45,7 +45,7 @@ export default function Footer() {
 						})
 						}
 					</ul>
-					<ul className={css.links}>
+					{/* <ul className={css.links}>
 						<li><h4>Links</h4></li>
 						{
 						content.links.map( ({ person, link, note }, index) => {
@@ -57,7 +57,7 @@ export default function Footer() {
 							)
 						})
 						}
-					</ul>
+					</ul> */}
 					<ul className={css.social}>
 						<li><h4>Social</h4></li>
 						<li className={css.socialList}>
@@ -71,7 +71,7 @@ export default function Footer() {
 						</li>
 					</ul>
 				</section>
-				<section className={css.github}>
+				{/* <section className={css.github}>
 					<a href={settings.portfolio.repo_html} rel="noreferrer" target="_blank">
 						<h5>{settings.portfolio.forkthis}</h5>
 						<ul>
@@ -83,7 +83,7 @@ export default function Footer() {
 							</li>
 						</ul>
 					</a>
-				</section>
+				</section> */}
 			</Container>
 			<canvas id="gradient-canvas" className={''} data-transition-in ></canvas>
 		</footer>
