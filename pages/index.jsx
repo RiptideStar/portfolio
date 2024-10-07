@@ -15,10 +15,10 @@ export default function HomePage() {
 	return (
 		<>
 			<Color colors={colors} />
-			<Hero />
+			<Hero id="hero" />
 			{/* <Looking /> */}
-			<FeaturedProjects />
-			<About />
+			<FeaturedProjects id="featured" />
+			<About id="about" />
 			{/* <Technical /> */}
 			{/* <Career /> */}
 		</>
