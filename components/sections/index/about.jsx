@@ -34,9 +34,14 @@ export default function About() {
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						{window.innerWidth > 768 && (
-							<img src="/img/headshot.jpg" alt="Headshot"/>
-						)}
+						<Image
+							src="/img/headshot.jpg"
+							alt="Headshot"
+							width={600}
+							height={800}
+							layout="responsive"
+							sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+						/>
 						{/* <Image src="/img/headshot.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
