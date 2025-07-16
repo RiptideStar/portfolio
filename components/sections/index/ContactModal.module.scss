@@ -75,10 +75,22 @@
   font-family: var(--font-accent);
   font-weight: 700;
   transition: background 0.2s, color 0.2s;
+  
+  svg {
+    margin-right: 0.5rem;
+    color: inherit;
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+  
   &:hover, &:focus {
     background: var(--secondary, #e0e0ff);
     color: var(--background, #fff);
     outline: none;
+    
+    svg {
+      color: inherit;
+    }
   }
 }
 
