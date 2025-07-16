@@ -40,4 +40,16 @@ Fork, Install, Editing, and Deploy instructions coming soon(ish)!
 
 It is my hope that by sharing this project it can give others a chance to enjoy learning Nextjs (and have as much fun as I did), and hopefully brings value to people as a portfolio and networking tool!
 
+## Contact Form Email Setup (Resend)
+
+To enable the contact form, set the following environment variable in your `.env.local` file:
+
+```
+RESEND_API_KEY=your_resend_api_key_here
+```
+
+- Get your API key from the [Resend dashboard](https://resend.com/).
+- You must verify your sending domain in Resend to send from your own domain.
+- The contact form will send submissions to kyle100@upenn.edu.
+
 

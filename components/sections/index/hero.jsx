@@ -15,6 +15,8 @@ import button 		from '../../../styles/blocks/button.module.scss';
 
 import content		from '../../../content/index/hero.json'
 
+import ContactModal from './ContactModal';
+
 
 /**
  * TO DO LIST
@@ -29,6 +31,7 @@ import content		from '../../../content/index/hero.json'
 export default function Hero() {
 
 	const [typingStatus, setTypingStatus] = useState('Initializing');
+	const [modalOpen, setModalOpen] = useState(false);
 
 	return (
 		<Section classProp={`${hero.section}`}>
@@ -65,7 +68,7 @@ export default function Hero() {
 				</section>
 				<section>
 					<button	className={`button ${button.primary}`}
-							onClick={ () => window.location = 'mailto:kyle100@wharton.upenn.edu' } >
+							onClick={ () => setModalOpen(true) } >
 						{content.buttons.primary.title}
 					</button>
 					<button className={`button ${button.secondary} leaveSite`}
@@ -74,6 +77,7 @@ export default function Hero() {
 					</button>
 				</section>
 			</Container>
+			<ContactModal open={modalOpen} onClose={() => setModalOpen(false)} />
 			<HeroBg theme="bg-color-1" />
 		</Section>
 	)
